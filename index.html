@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ImmunoHuman Research — A Clinical Research Company For Human Health</title>
+<meta name="description" content="ImmunoHuman Research — ethical, patient-first clinical research across Cardiology, Neurology, Oncology, Immunotherapy and more, based in Nagpur, Maharashtra, India." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader" aria-hidden="true">
+  <svg viewBox="0 0 120 160" width="70" height="94">
+    <path id="loader-strand-a" d="M20,0 C60,20 20,40 60,60 C100,80 60,100 20,120 C60,140 20,150 20,160" />
+    <path id="loader-strand-b" d="M100,0 C60,20 100,40 60,60 C20,80 60,100 100,120 C60,140 100,150 100,160" />
+  </svg>
+</div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="logo-mark.png" alt="" class="brand-logo" />
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">ImmunoHuman</span>
+        <span class="brand-sub">RESEARCH</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#specialities">Specialities</a>
+      <a href="#process">Trial Process</a>
+      <a href="#network">Our Network</a>
+      <a href="#connections">Connections</a>
+      <a href="#director">Director&rsquo;s Desk</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Reusable SVG defs -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="helix-glyph" viewBox="0 0 60 60">
+      <path d="M14 4 C40 14 20 24 46 34 C 52 36 52 40 52 44" fill="none" stroke="url(#glyphGrad)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M46 4 C20 14 40 24 14 34 C 8 36 8 40 8 44" fill="none" stroke="url(#glyphGrad2)" stroke-width="4" stroke-linecap="round"/>
+      <linearGradient id="glyphGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#2E9C9C"/><stop offset="1" stop-color="#6FA96C"/>
+      </linearGradient>
+      <linearGradient id="glyphGrad2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0F2A43"/><stop offset="1" stop-color="#14607A"/>
+      </linearGradient>
+    </symbol>
+  </defs>
+</svg>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <canvas id="dnaCanvas" aria-hidden="true"></canvas>
+  <div class="hero-veil" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow reveal">Clinical Research &middot; Nagpur, Maharashtra, India</p>
+    <h1 class="hero-title reveal">
+      A Clinical Research<br/>
+      Company For <span class="ital">Human Health</span>
+    </h1>
+    <p class="hero-lede reveal">
+      ImmunoHuman Research designs and conducts ethical clinical trials that turn
+      scientific potential into real treatments &mdash; guided by rigorous safety
+      standards and a patient&#8209;first protocol at every stage.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#contact" class="btn btn-primary">Partner With Us</a>
+      <a href="#about" class="btn btn-ghost">Our Approach&nbsp;&darr;</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll-cue" aria-hidden="true">
+    <span></span>
+    <p>Scroll</p>
+  </div>
+</section>
+
+<!-- helix spine divider 
+<div class="spine-wrap" aria-hidden="true">
+  <p class="spine-caption">Research, from strand to standard of care</p>
+  <svg class="spine" id="spineSvg" viewBox="0 0 100 200" preserveAspectRatio="xMidYMid meet">
+    <path id="spinePathA" d="" fill="none" stroke="#2E9C9C" stroke-width="3.2" stroke-linecap="round"/>
+    <path id="spinePathB" d="" fill="none" stroke="#C9A24B" stroke-width="3.2" stroke-linecap="round"/>
+    <g id="spineRungs"></g>
+  </svg>
+</div>-->
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <div class="wrap two-col">
+    <div class="col-label reveal">
+      <p class="eyebrow">01&nbsp;&mdash;&nbsp;Who We Are</p>
+      <h2>About Us</h2>
+    </div>
+    <div class="col-body">
+      <p class="lede reveal">
+        At ImmunoHuman Research, every trial we conduct is anchored in a
+        profound respect for human life. Beyond protocols and data, our true
+        purpose is transforming patient care by helping discover safer, more
+        effective treatments for chronic and life&#8209;threatening illnesses.
+        By maintaining rigorous safety standards and putting trial
+        participants first, we help turn scientific potential into real&#8209;world
+        cures &mdash; giving patients more time, better quality of life, and a
+        healthier future for generations to come.
+      </p>
+      <p class="reveal">
+        We work at the intersection of immunology and human&#8209;centred care.
+        Our name carries that intent: <em>Immuno</em>, for the biology we study
+        and harness, and <em>Human</em>, for the person at the centre of every
+        protocol we write. Every study we run is built on informed consent
+        that is genuinely understood, monitoring that never cuts corners, and
+        reporting that stakeholders and regulators can rely on without
+        question.
+      </p>
+      <div class="value-grid reveal">
+        <div class="value-card">
+          <span class="value-num">GCP</span>
+          <p>Trials run in line with Good Clinical Practice and ICH&#8209;GCP
+          principles, from protocol design to close&#8209;out.</p>
+        </div>
+        <div class="value-card">
+          <span class="value-num">Data</span>
+          <p>Clean, auditable data management, because good science needs
+          numbers stakeholders can trust.</p>
+        </div>
+        <div class="value-card">
+          <span class="value-num">Care</span>
+          <p>Participant welfare and informed consent are never a formality
+          &mdash; they are the starting point of every protocol.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SPECIALITIES ================= -->
+<section class="section specialities" id="specialities">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">02&nbsp;&mdash;&nbsp;Therapeutic Areas</p>
+      <h2>Our Specialities</h2>
+      <p class="section-sub">
+        Nine therapeutic areas where we design, run, and monitor trials &mdash;
+        each with its own biology, its own patients, and its own standard of
+        care to meet.
+      </p>
+    </div>
+
+    <div class="spec-grid" id="specGrid"><!-- injected + present in DOM for no-js --></div>
+  </div>
+</section>
+
+<!-- ================= TRIAL PROCESS ================= -->
+<section class="section process" id="process">
+  <div class="wrap">
+    <div class="section-head reveal light">
+      <p class="eyebrow">03&nbsp;&mdash;&nbsp;How A Trial Moves</p>
+      <h2>From Molecule to Medicine</h2>
+      <p class="section-sub">
+        Clinical development is a strict sequence &mdash; each phase must be
+        satisfied before the next begins.
+      </p>
+    </div>
+
+    <div class="phase-track" id="phaseTrack">
+      <div class="phase-line" aria-hidden="true"><span id="phaseLineFill"></span></div>
+
+      <div class="phase reveal">
+        <span class="phase-tag">Phase I</span>
+        <h3>Safety</h3>
+        <p>A small group of volunteers receives the investigational treatment
+        to assess safety, dosage range, and how the body processes it.</p>
+      </div>
+      <div class="phase reveal">
+        <span class="phase-tag">Phase II</span>
+        <h3>Efficacy</h3>
+        <p>A larger patient group tests whether the treatment works as
+        intended, while safety monitoring continues in parallel.</p>
+      </div>
+      <div class="phase reveal">
+        <span class="phase-tag">Phase III</span>
+        <h3>Confirmation</h3>
+        <p>Large, often multi&#8209;centre trials confirm effectiveness, monitor
+        side effects, and compare against existing standards of care.</p>
+      </div>
+      <div class="phase reveal">
+        <span class="phase-tag">Phase IV</span>
+        <h3>Surveillance</h3>
+        <p>After approval, long&#8209;term monitoring tracks real&#8209;world safety and
+        outcomes across a wider population.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NETWORK ================= -->
+<section class="section network" id="network">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">04&nbsp;&mdash;&nbsp;Who We Work With</p>
+      <h2>Our Network</h2>
+      <p class="section-sub">
+        No trial runs in isolation. Ours are built on standing relationships
+        with the people and institutions who make ethical research possible.
+      </p>
+    </div>
+
+    <div class="network-grid">
+      <div class="network-card reveal">
+        <div class="network-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 42s-16-9.6-16-21A9 9 0 0 1 24 14a9 9 0 0 1 16 7c0 11.4-16 21-16 21Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Reputed Doctors</h3>
+        <p>Principal and co&#8209;investigators across specialities who bring
+        clinical judgement and patient trust to every protocol.</p>
+      </div>
+      <div class="network-card reveal">
+        <div class="network-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 42V16l16-8 16 8v26M8 42h32M20 42V26h8v16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 12v10M19 17h10" stroke="currentColor" stroke-width="2.4"/></svg>
+        </div>
+        <h3>Multispeciality Hospitals &amp; Clinics</h3>
+        <p>Trial sites equipped for recruitment, treatment, and long&#8209;term
+        follow&#8209;up across therapeutic areas.</p>
+      </div>
+      <div class="network-card reveal">
+        <div class="network-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 4 6 12v10c0 12 8 19.6 18 22 10-2.4 18-10 18-22V12L24 4Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M17 24l5 5 10-10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Ethics Committees</h3>
+        <p>Independent review of every protocol, ensuring participant
+        rights, safety, and wellbeing come before anything else.</p>
+      </div>
+      <div class="network-card reveal">
+        <div class="network-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="28" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M14 18h20M14 24h20M14 30h12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Regulatory Bodies</h3>
+        <p>Alignment with national and international regulatory expectations,
+        so approvals rest on a record that holds up to scrutiny.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OPERATIONAL CONNECTIONS ================= -->
+<section class="section connections" id="connections">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">05&nbsp;&mdash;&nbsp;Working Relationships</p>
+      <h2>Our Operational Connections</h2>
+      <p class="section-sub">
+        Our trials are supported by established sponsors, CROs and
+        regulatory partners &mdash; and a network that keeps growing beyond
+        them.
+      </p>
+    </div>
+
+    <div class="conn-grid">
+      <div class="conn-card reveal">
+        <span class="conn-mark" aria-hidden="true">RH</span>
+        <h3>Reghelps</h3>
+        <p>Regulatory and compliance support across the trial lifecycle.</p>
+      </div>
+      <div class="conn-card reveal">
+        <span class="conn-mark" aria-hidden="true">NN</span>
+        <h3>Novo Nordisk</h3>
+        <p>Global pharmaceutical sponsor collaboration.</p>
+      </div>
+      <div class="conn-card reveal">
+        <span class="conn-mark" aria-hidden="true">IQ</span>
+        <h3>IQVIA</h3>
+        <p>Clinical research and data-analytics partnership.</p>
+      </div>
+      <div class="conn-card reveal">
+        <span class="conn-mark" aria-hidden="true">IC</span>
+        <h3>ICON</h3>
+        <p>Contract research organisation collaboration.</p>
+      </div>
+      <div class="conn-card conn-card-wide reveal">
+        <span class="conn-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M6 24h36M24 6c6 5 6 31 0 36M24 6c-6 5-6 31 0 36" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </span>
+        <h3>And a Global Network</h3>
+        <p>Ongoing relationships beyond our named partners, reaching
+        further with every trial we run.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DIRECTOR ================= -->
+<section class="section director" id="director">
+  <div class="wrap two-col reverse">
+    <div class="director-portrait reveal">
+      <div class="portrait-frame">
+        <img src="director.jpg" alt="Mr. Gurudutt Bhorkar, Director" />
+        <span class="portrait-ring" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="director-body">
+      <p class="eyebrow reveal">06&nbsp;&mdash;&nbsp;Leadership</p>
+      <h2 class="reveal">Director&rsquo;s Desk</h2>
+      <h3 class="director-name reveal">Mr. Gurudutt Bhorkar</h3>
+      <p class="reveal">
+        Mr. Bhorkar comes from a Clinical Research Industry background, and
+        leads ImmunoHuman Research with a clear conviction: trials should be
+        run ethically, backed by proper data management, at every stage.
+        His vision is a simple exchange of trust &mdash; good quality treatment
+        for the patient, and good quality data for every stakeholder involved.
+      </p>
+      <p class="reveal">
+        Under his direction, the team includes experienced staff who remain
+        personally involved in research activity day to day &mdash; not removed
+        from it. That closeness to the work is, in his view, what keeps a
+        trial honest.
+      </p>
+      <blockquote class="reveal">
+        &ldquo;Good data for stakeholders. Good care for patients. Neither
+        one at the expense of the other.&rdquo;
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STAFF INTRO ================= -->
+<section class="section staff" id="team">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">07&nbsp;&mdash;&nbsp;Staff Intro</p>
+      <h2>Our People</h2>
+      <p class="section-sub">
+        We have good experience &amp; speciality staff, with everyone bringing
+        more than 5 years of experience in the research industry.
+      </p>
+    </div>
+
+    <h3 class="staff-subhead reveal">Our Team Introduction</h3>
+    <div class="role-grid">
+      <div class="role-card reveal"><span>Clinical Trial Officer</span></div>
+      <div class="role-card reveal"><span>Principal Investigators</span></div>
+      <div class="role-card reveal"><span>Study Coordinators</span></div>
+      <div class="role-card reveal"><span>Business Developer</span></div>
+      <div class="role-card reveal"><span>Document Specialist</span></div>
+      <div class="role-card reveal"><span>Study Start&#8209;up Specialist</span></div>
+      <div class="role-card reveal"><span>Site Manager Support</span></div>
+      <div class="role-card reveal"><span>Tech Support Specialist</span></div>
+      <div class="role-card reveal"><span>Phlebotomist</span></div>
+      <div class="role-card reveal"><span>Digital Marketing</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+  <div class="wrap two-col">
+    <div class="contact-info">
+      <p class="eyebrow reveal">08&nbsp;&mdash;&nbsp;Get In Touch</p>
+      <h2 class="reveal">Contact Us</h2>
+      <p class="section-sub reveal">
+        For trial partnerships, site collaboration, or referrals &mdash; reach
+        our team directly.
+      </p>
+
+      <ul class="contact-list reveal">
+        <li>
+          <span class="ci-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </span>
+          <div><span class="ci-label">Email</span>
+          <a href="mailto:Ihresearch@gmail.com">Ihresearch@gmail.com</a></div>
+        </li>
+        <li>
+          <span class="ci-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2C10.5 21 3 13.5 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </span>
+          <div><span class="ci-label">Phone</span>
+          <a href="tel:+919167796919">+91 91677 96919</a><br/>
+          <a href="tel:+918999982186">+91 89999 82186</a></div>
+        </li>
+        <li>
+          <span class="ci-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 22s7-7.4 7-13a7 7 0 0 0-14 0c0 5.6 7 13 7 13Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </span>
+          <div><span class="ci-label">Address</span>
+          Near Sarakshi Eye Hospital, Jaiprakash Nagar,<br/>
+          Wardha Rd, Nagpur &ndash; 440025, Maharashtra, India</div>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" required autocomplete="name" />
+      </div>
+      <div class="form-row">
+        <label for="femail">Email</label>
+        <input type="email" id="femail" name="email" required autocomplete="email" />
+      </div>
+      <div class="form-row">
+        <label for="fphone">Phone</label>
+        <input type="tel" id="fphone" name="phone" autocomplete="tel" />
+      </div>
+      <div class="form-row">
+        <label for="fsubject">I am reaching out as a&hellip;</label>
+        <select id="fsubject" name="subject">
+          <option>Doctor / Investigator</option>
+          <option>Hospital / Clinic</option>
+          <option>Prospective Trial Participant</option>
+          <option>Sponsor / Stakeholder</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="fmessage">Message</label>
+        <textarea id="fmessage" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" id="formSubmit">
+        <span class="btn-text">Send Message</span>
+        <span class="btn-loader" aria-hidden="true"></span>
+      </button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark footer-mark" aria-hidden="true">
+        <img src="logo-mark.png" alt="" class="brand-logo" />
+      </span>
+      <div>
+        <p class="footer-name">ImmunoHuman Research</p>
+        <p class="footer-tag">A Clinical Research Company For Human Health</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#specialities">Specialities</a>
+      <a href="#network">Network</a>
+      <a href="#connections">Connections</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> ImmunoHuman Research, Nagpur, Maharashtra, India. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
